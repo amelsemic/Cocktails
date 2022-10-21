@@ -63,7 +63,7 @@ const SingleCocktail = () => {
         Back to Homepage
       </Link>
       <h2 className="section-title">{description.name}</h2>
-      <div>
+      <div className="drink">
         <img src={description.image} alt={description.name}></img>
         <div className="drink-info">
           <p>
